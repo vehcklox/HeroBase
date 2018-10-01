@@ -7,6 +7,7 @@
           v-for="(id, index) in initial_ids"
           :id="id"
           :key="index"
+          :card="index"
         />
       </div>
     </div>
